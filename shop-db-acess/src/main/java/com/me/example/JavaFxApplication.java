@@ -56,7 +56,6 @@ public class JavaFxApplication extends Application {
 		FxWeaver fxWeaver = applicationContext.getBean(FxWeaver.class);
 	    Parent root = fxWeaver.loadView(HomeController.class);
 	    scene = new Scene(root);
-	  //  scene.getStylesheets().add("/styles/bootstrap3.css");
 	    primaryStage.setScene(scene);
 	    primaryStage.show();
 	   
@@ -104,7 +103,6 @@ public class JavaFxApplication extends Application {
 		 catch (IOException e) {
 			 e.printStackTrace();
 		 }
-		//logger.info("Product" + prod1.getQualities().toString());
 		
 	}
 	/**

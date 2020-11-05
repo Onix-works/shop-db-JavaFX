@@ -8,11 +8,15 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.DirtiesContext;
+
 import com.me.example.model.Product;
 import com.me.example.model.ProductService;
 import com.me.example.supplementary.ProdBean;
 
-
+@SpringBootTest
+@DirtiesContext
 public class ProdBeanTests {
 	
 	@InjectMocks
