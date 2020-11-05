@@ -10,4 +10,4 @@ A JavaFX with Spring Boot app to access DB with shop items.
 - Spring (Core, Data, Test)
 - Spring Boot
 ### Deployment
-run jar file as executable(or use IDE)
+Run jar file as executable(or use IDE)
