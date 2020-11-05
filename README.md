@@ -9,5 +9,7 @@ A JavaFX with Spring Boot app to access DB with shop items.
 - JPA(Hibernate)
 - Spring (Core, Data, Test)
 - Spring Boot
+## Secondary tools 
+FxWeaver, Lombok
 ### Deployment
 Run jar file as executable(or use IDE)
