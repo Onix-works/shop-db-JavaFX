@@ -10,6 +10,6 @@ A JavaFX with Spring Boot app to access DB with shop items.
 - Spring (Core, Data, Test)
 - Spring Boot
 ## Secondary tools 
-FxWeaver, Lombok
+FxWeaver, Lombok, XML, FXML, YAML
 ### Deployment
 Run jar file as executable(or use IDE)
